@@ -1,0 +1,3 @@
+<registries>
+	<registry addr="10.24.0.236" hrn="cas" port="12345"/>
+</registries>

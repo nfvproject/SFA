@@ -1,0 +1,10 @@
+[sfi]
+auth = plc.princeton
+user = plc.princeton.tmack
+registry = http://www.planet-lab.org:12345/
+sm = http://www.planet-lab.org:12347/
+
+[sface]
+
+[myslice]
+

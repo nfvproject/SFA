@@ -1,0 +1,66 @@
+# DO NOT EDIT. This file was automatically generated at
+# Fri Jul 25 10:37:17 2014 from:
+# 
+# /etc/sfa/sfa_config
+# /etc/sfa/default_config.xml
+# /etc/sfa/configs/site_config
+[sfa]
+generic_flavour=pl
+interface_hrn=ceni
+credential_schema=/etc/sfa/credential.xsd
+api_loglevel=2
+max_slice_renew=60
+session_key_path=/var/lib/sfa/session_keys
+data_dir=/var/lib/sfa/
+
+[sfa_registry]
+enabled=true
+host=localhost
+port=8002
+root_auth=ceni
+
+[sfa_sm]
+enabled=true
+host=localhost
+port=8001
+caching=false
+
+[sfa_aggregate]
+enabled=true
+host=localhost
+port=8003
+caching=true
+
+[sfa_db]
+enabled=true
+host=localhost
+port=5432
+user=sfadbuser
+password=6bfcd2c9-0236-405a-89ab-5938603970c9
+name=sfa
+
+[sfa_flashpolicy]
+enabled=false
+config_file=/etc/sfa/sfa_flashpolicy_config.xml
+port=843
+
+[sfa_plc]
+user=wangyang2013@ict.ac.cn
+password=myplcmyslice
+url=https://localhost:443/PLCAPI/
+
+[sfa_federica]
+url=https://root:password@federica.sfa.wrapper.com:8443/fedewrapper/xmlrpc/
+
+[sfa_nova]
+user=novaadmin
+api_url=127.0.0.1
+api_port=8773
+novarc=/root/novarc
+
+[sfa_nitos]
+url=http://195.251.17.239:8080/RPC2
+
+[sfa_dummy]
+url=http://127.0.0.1:8080
+
